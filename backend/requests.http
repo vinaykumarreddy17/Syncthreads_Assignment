@@ -1,0 +1,16 @@
+### Login Request
+POST http://localhost:5000/api/login
+Content-Type: application/json
+
+{
+  "username": "vinay@gmail.com",
+  "password": "Vinay007"
+}
+
+### Dashboard Request
+GET http://localhost:5000/api/dashboard
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQyODIzNjI5LCJleHAiOjE3NDI4MjcyMjl9.mJEceqgoP6KHknFOcdBlnf8DGHMP49-NNpDF_tlfP6c
+
+### Map View Request
+GET http://localhost:5000/api/map
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQyODIzNjI5LCJleHAiOjE3NDI4MjcyMjl9.mJEceqgoP6KHknFOcdBlnf8DGHMP49-NNpDF_tlfP6c
