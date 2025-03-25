@@ -1,0 +1,23 @@
+.dashboard-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px auto;
+    width: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card:hover {
+    background-color: #f1f1f1;
+  }
